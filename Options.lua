@@ -158,9 +158,9 @@ end
 
 function BigWigsOptions:CoreState()
 	if BigWigs:IsActive() then
-		self:SetIcon("Interface\\AddOns\\BigWigs\\Icons\\core-enabled")
+		self:SetIcon("Interface\\AddOns\\BigWigs_NG\\Icons\\core-enabled")
 	else
-		self:SetIcon("Interface\\AddOns\\BigWigs\\Icons\\core-disabled")
+		self:SetIcon("Interface\\AddOns\\BigWigs_NG\\Icons\\core-disabled")
 	end
 
 	self:UpdateTooltip()
